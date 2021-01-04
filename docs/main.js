@@ -27,6 +27,7 @@ document.addEventListener("keydown", e => {
 })
 
 function change(){
+    document.getElementById("resulttext").value = ""
     for (let e of document.querySelectorAll(".tweet")){
         let val = e.value.replace(/&/g,"&amp;");
         val = val.replace(/\n/g,"&br;");
