@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitterまとめ補助奴</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="dibody">
+        <div id="edit">
+            <div class="tweetbox"><button onclick="del(event)">×</button>作者ツイート<input type="checkbox" class="tweetmode" checked><textarea class="tweet"></textarea></div>
+            <div id="adder" onclick="editadd()">+</div>
+        </div>
+        <div id="change" onclick="change()">
+            <div id="triang"></div>
+        </div>
+        <div id="result">
+            <textarea id="resulttext"></textarea>
+        </div>
+    </div>
+</body>
+</html>
