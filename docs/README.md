@@ -1,0 +1,1 @@
+wikiwiki補助奴
